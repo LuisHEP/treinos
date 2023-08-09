@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header{
+    background-color: rgb(0, 0, 0);
+    padding: 16px 0px;
+}
+
+header li{
+    display: inline;
+    margin-right: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header li a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img{
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 30%;
+}
+
+section{
+    padding: 16px 0px;
+}
+
+section h2, .articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a{
+    background-color: blue;
+    color: aliceblue;
+    padding: 8px;
+    margin-top: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.articles article h3 {
+    font-size: 17px;
+}
+
+section h2{
+    font-size: 28px;
+}
+
+#sports {
+    background-color: rgba(95, 248, 95, 0.226);
+}
+
+#economy {
+    background-color: rgba(217, 233, 73, 0.226);
+}
+
+#games {
+    background-color: black;
+}
+
+#culinaria {
+    background-color: azure;
+}
+
+#games h2 {
+    color: gold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#culinaria h2 {
+    color: darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#games article {
+    color: gold;
+    font-weight: bolder;
+}
+
+#culinaria article {
+    color: darkred;
+    font-weight: bolder;
+}
+
+#games a {
+    background-color: chartreuse;
+    color: magenta;
+}
+
+#culinaria a {
+    background-color: black;
+    color: rebeccapurple;
+}
